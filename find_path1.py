@@ -210,8 +210,8 @@ def equations_with_fixed_hpS1(x, hpS1, r1, R1, r2, R2, theta_p0, hp0, n):
 
 # 示例参数
 R1 = 4                # 外径
-r1 = 3                # 内径
-R2 = 5                # 外径
+r1 = 4                # 内径
+R2 = 4                # 外径
 r2 = 4                # 内径
 theta_p0 = np.pi/4   # 示例角度
 hp0 = 6              # 示例高度
