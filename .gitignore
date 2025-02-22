@@ -1,0 +1,15 @@
+# 忽略所有的log文件
+*.log
+
+# 忽略所有的txt文件
+*.txt
+
+# 忽略名为 output 的文件夹及其中的内容
+output/
+
+# 忽略Python编译文件
+*.pyc
+*.pyo
+
+# 忽略IDE配置文件（如VS Code的配置文件）
+.vscode/
