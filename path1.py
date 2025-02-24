@@ -105,7 +105,7 @@ def KreslingMagnetic(r, R, n, theta_p0, hp0, phi_p, hp):
           totalMagForce 为所有磁力的矢量和，
           magTorque 此处暂取零（可根据需要扩展）。
     """
-    Kd = 0.8 * 10 **8 *0
+    Kd = 0.8 * 10 **8
     M = np.sqrt(2 * Kd / mu0)
     V = (10 / 1000) * np.pi * (8/ 100)**2
     magm = M * V
@@ -210,8 +210,8 @@ def equations_with_fixed_hpS1(x, hpS1, r1, R1, r2, R2, theta_p0, hp0, n):
 
 # 示例参数
 R1 = 4                # 外径
-r1 = 2.5                # 内径
-R2 = 5.5                # 外径
+r1 = 4                # 内径
+R2 = 4                # 外径
 r2 = 4                # 内径
 theta_p0 = np.pi/4   # 示例角度
 hp0 = 6              # 示例高度
